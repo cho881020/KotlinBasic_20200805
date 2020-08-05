@@ -32,6 +32,11 @@ class MainActivity : AppCompatActivity() {
 //        두번째 버튼이 눌릴때의 대응
         secondBtn.setOnClickListener {
             Log.d("버튼눌림", "두번째 버튼 눌림!")
+
+//            두번째 버튼도 눌리면 "두번째 버튼 눌림!" 문구 짧게 (토스트로) 출력.
+
+            Toast.makeText(this, "두번째 버튼 눌림!", Toast.LENGTH_SHORT).show()
+
         }
 
 
