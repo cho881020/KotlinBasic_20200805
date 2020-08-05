@@ -40,5 +40,17 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+//        복사하기 버튼이 눌리면 할 일
+        copyBtn.setOnClickListener {
+
+//            Edt 에 입력된 내용을 받아와서 (임시 저장)
+            val inputMessage = messageEdt.text.toString()
+
+//            Txt에 문구로 반영
+            copyResultTxt.text = inputMessage
+
+        }
+
+
     }
 }
