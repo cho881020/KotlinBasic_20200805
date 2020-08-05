@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
 //            이 중괄호 내부의 코드 => clickMeBtn이 눌리면 실행될 코드.
             Log.d("버튼클릭", "ClickME버튼 눌림!")
+
+            Toast.makeText(this, "Click Me 버튼 눌림", Toast.LENGTH_SHORT).show()
 
         }
 
