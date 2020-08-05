@@ -14,4 +14,10 @@
         android:layout_height="wrap_content"
         android:text="Click Me!!" />
 
+    <Button
+        android:id="@+id/secondBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="두번째 버튼" />
+
 </LinearLayout>
