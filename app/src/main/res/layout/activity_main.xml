@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="15dp"
     tools:context=".MainActivity">
 
@@ -37,8 +37,8 @@
         android:id="@+id/copyResultTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
         android:gravity="center"
-        android:text="입력한 내용이 복사될 자리"/>
+        android:padding="10dp"
+        android:text="입력한 내용이 복사될 자리" />
 
 </LinearLayout>
