@@ -20,4 +20,22 @@
         android:layout_height="wrap_content"
         android:text="두번째 버튼" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아무 문장이나 한줄로 입력"
+        android:singleLine="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="복사하기" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="입력한 내용이 복사될 자리"/>
+
 </LinearLayout>
